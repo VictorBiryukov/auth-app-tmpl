@@ -1,0 +1,8 @@
+{
+    "realm": "auth-app-tmpl",
+    "auth-server-url": "http://localhost:8080/auth/",
+    "ssl-required": "external",
+    "resource": "auth-app-tmpl",
+    "public-client": true,
+    "confidential-port": 0
+}

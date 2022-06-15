@@ -1,0 +1,6 @@
+[
+  {
+    "name": "searchMeasure",
+    "body": "query searchMeasure($cond: String) {\n  searchMeasure(cond: $cond) {\n    elems {\n      ...MeasureAttributes\n    }\n  }\n}\n    fragment MeasureAttributes on _E_Measure {\n  id\n  __typename\n  name\n}"
+  }
+]

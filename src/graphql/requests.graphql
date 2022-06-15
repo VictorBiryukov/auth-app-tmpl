@@ -1,0 +1,15 @@
+# Measures
+
+fragment MeasureAttributes on _E_Measure{
+  id
+  __typename
+  name
+}
+
+query searchMeasure($cond:String){
+  searchMeasure(cond:$cond){
+    elems{
+      ...MeasureAttributes
+    }
+  }
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model model-name="simple-measure" version="0.0.1">
+  <layout>
+    <model/>
+    <classes>
+      <class name="Measure">
+        <property name="name" x="2059" y="404"/>
+      </class>
+    </classes>
+  </layout>
+  <class name="Measure" is-dictionary="true" is-abstract="false" embeddable="false">
+    <property name="name" type="STRING" length="254"/>
+  </class>
+</model>

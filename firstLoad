@@ -1,0 +1,24 @@
+mutation createBasicMeasures($input: [_CreateMeasureInput!]){
+  dictionaryPacket{
+    updateOrCreateManyMeasure(input:$input){
+      id
+    }
+  }
+}
+
+{
+  "input": [
+    {
+      "id": "m",
+      "name": "Метр погонный"
+    },
+        {
+      "id": "m2",
+      "name": "Метр квадратный"
+    },
+        {
+      "id": "m3",
+      "name": "Метр кубический"
+    }
+  ]
+}
